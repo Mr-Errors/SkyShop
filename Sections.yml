@@ -1,0 +1,324 @@
+## ░██████╗██╗░░██╗██╗░░░██╗░██████╗██╗░░██╗░█████╗░██████╗░
+## ██╔════╝██║░██╔╝╚██╗░██╔╝██╔════╝██║░░██║██╔══██╗██╔══██╗
+## ╚█████╗░█████═╝░░╚████╔╝░╚█████╗░███████║██║░░██║██████╔╝
+## ░╚═══██╗██╔═██╗░░░╚██╔╝░░░╚═══██╗██╔══██║██║░░██║██╔═══╝░
+## ██████╔╝██║░╚██╗░░░██║░░░██████╔╝██║░░██║╚█████╔╝██║░░░░░
+## ╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░░░░
+
+Menu-Title:
+    named: "&8Shop Menu"
+
+Rows: 6
+
+items:
+    fill-1:
+        material: yellow stained glass pane
+        slots:
+        - 0
+        - 1
+        - 7
+        - 8
+        - 9
+        - 17
+        - 36
+        - 44
+        - 45
+        - 46
+        - 52
+        - 53
+    fill-2:
+        material: Black Stained Glass Pane
+        slots:
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 18
+        - 26
+        - 27
+        - 28
+        - 34
+        - 35
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 47
+        - 48
+        - 50
+        - 51
+
+ShopSections:
+    Rotating:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQyYTI0MTUyYWExM2FjMzE1YjI3MWQ2OThiODJiNGE3YTE3ZjEwZjE3ZjBlOGM0OTVmYjZmOGNiMzljNTU2NCJ9fX0=
+        displayname: "&8● <#E9F314>&lROTATING SHOP"
+        slot: 13
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '  <#EBEBEB>Open the blocks shop'
+        - '  <#EBEBEB>to buy the blocks avilable'
+        - ''
+        - '  <#1DF516>▶ Left-Click to interact'
+    Nether:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY3ZGZmNTM5ZGE3NGMxMmI3ZTFiOGQyYzA3MzQ5OGM0ZThmNzc2ZWEyYzBkM2Y2ZDEyZmUwMmNmNDc1ZTUxMiJ9fX0=
+        displayname: "&8● <#C31500>&lNETHER BLOCKS"
+        slot: 19
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#C31500>Items in this category:'
+        - ' <#C31500>• <#EBEBEB>Crimson Nylium'
+        - ' <#C31500>• <#EBEBEB>Polished Basalt'
+        - ' <#C31500>• <#EBEBEB>Warped Fungus'
+        - ' <#C31500>• <#EBEBEB>Warped Wart Block'
+        - ' <#C31500>• <#EBEBEB>Polished Blackstone'
+        - ' <#C31500>• <#EBEBEB>and 16 more...'
+        - ''
+        - '<#C31500>&l(!) <#C31500>Click to open shop!'
+    Building:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJmNmZiNDNjOWU0NWFjZTI0ZTc3YjY0YjYwNzVlYTMyZjQyMDYwM2IxNWFhYWQ3NTk3YWY3MDQ5YjkzNTM0NiJ9fX0
+        displayname: "&8● <#5BF027>&lBUILDING BLOCKS"
+        slot: 20
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#5BF027>Items in this category:'
+        - ' <#5BF027>• <#EBEBEB>Chiseled Sandstone'
+        - ' <#5BF027>• <#EBEBEB>Oak Planks'
+        - ' <#5BF027>• <#EBEBEB>Budding Amethyst'
+        - ' <#5BF027>• <#EBEBEB>Cracked Stone Bricks'
+        - ' <#5BF027>• <#EBEBEB>Crying Obsidian'
+        - ' <#5BF027>• <#EBEBEB>and 63 more...'
+        - ''
+        - '<#1DF516>&l(!) <#1DF516>Click to open shop!'
+    RedStone:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY4NGE0M2E0NThkYWI4ZDBmZTA1MDYyZTZiNDJlZGU3ZjI1MDRhNjQ5YzZjM2FiNjZjODY2NmUwYjgwNjlkNCJ9fX0=
+        displayname: "&8● <#FF2626>&lREDSTONE"
+        slot: 21
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#FF2626>Items in this category:'
+        - ' <#FF2626>• <#EBEBEB>Dispenser'
+        - ' <#FF2626>• <#EBEBEB>Minecart'
+        - ' <#FF2626>• <#EBEBEB>Rail'
+        - ' <#FF2626>• <#EBEBEB>Hopper'
+        - ' <#FF2626>• <#EBEBEB>Powered Rail'
+        - ' <#FF2626>• <#EBEBEB>and 18 more...'
+        - ''
+        - '<#FF2626>&l(!) <#FF2626>Click to open shop!'
+    Decorations:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVmZjI5ZWE0NzFiMGRiZGIwZjhjZmZlNTIzZmZmZjZhYjAyYTVlZDI5OTBhYmFmMGUyYzYwNGQyMjdmMTA4NCJ9fX0=
+        displayname: "&8● <#1D94E6>&lDECORATIONS"
+        slot: 22
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#1D94E6>Items in this category:'
+        - ' <#1D94E6>• <#EBEBEB>Glow Berries'
+        - ' <#1D94E6>• <#EBEBEB>White Banner'
+        - ' <#1D94E6>• <#EBEBEB>Cornflower'
+        - ' <#1D94E6>• <#EBEBEB>Poppy'
+        - ' <#1D94E6>• <#EBEBEB>Dead Horn Coral Block'
+        - ' <#1D94E6>• <#EBEBEB>and 63 more...'
+        - ''
+        - '<#1D94E6>&l(!) <#1D94E6>Click to open shop!'
+    Colored:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZTM5MGVmODZjYjNlYmZmYjgwZjBlOTY0NTU4NmJmZTA1MWYxMzY5YTMwN2NmYmE0ZjlmYWFiNzMwYjkwZiJ9fX0=
+        displayname: "&8● <#E8E533>&lCOLORED BLOCKS"
+        slot: 23
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#E8E533>Items in this category:'
+        - ' <#E8E533>• <#EBEBEB>Gray Dye'
+        - ' <#E8E533>• <#EBEBEB>Brown Terracotta'
+        - ' <#E8E533>• <#EBEBEB>Gray Carpet'
+        - ' <#E8E533>• <#EBEBEB>Brown Carpet'
+        - ' <#E8E533>• <#EBEBEB>Black Carpet'
+        - ' <#E8E533>• <#EBEBEB>and 138 more...'
+        - ''
+        - '<#E8E533>&l(!) <#E8E533>Click to open shop!'
+    Minerals:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2MxMWI0ODM3ZTc5M2RjYzA4OTU2YTY0OTMwZjc1ZWZhZWI1OTE0YTg3ZTFkYjg4OTRmNWRmNjAzMzBkMzE0NiJ9fX0=
+        displayname: "&8● <#27D2F0>&lMINERALS"
+        slot: 24
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#27D2F0>Items in this category:'
+        - ' <#27D2F0>• <#EBEBEB>Lapis Lazuli'
+        - ' <#27D2F0>• <#EBEBEB>Nether Quartz Ore'
+        - ' <#27D2F0>• <#EBEBEB>Copper Ingot'
+        - ' <#27D2F0>• <#EBEBEB>Gold Nugget'
+        - ' <#27D2F0>• <#EBEBEB>Emerald Ore'
+        - ' <#27D2F0>• <#EBEBEB>and 29 more...'
+        - ''
+        - '<#27D2F0>&l(!) <#27D2F0>Click to open shop!'
+    Mob:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFkZDdlZTdkYzdmYmNiNWMxYWVlN2EyNTc5MTdmMDM0ZWViYTFlMDkzNzI3ZDcxMmRhYjBmYzM1ZmIwZTM4In19fQ==
+        displayname: "&8● <#EB3BFF>&lMOB DROPS"
+        slot: 25
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#EB3BFF>Items in this category:'
+        - ' <#EB3BFF>• <#EBEBEB>Llama Spawn Egg'
+        - ' <#EB3BFF>• <#EBEBEB>Chicken Spawn Egg'
+        - ' <#EB3BFF>• <#EBEBEB>Eye of Ender'
+        - ' <#EB3BFF>• <#EBEBEB>Cat Spawn Egg'
+        - ' <#EB3BFF>• <#EBEBEB>Dragons Breath'
+        - ' <#EB3BFF>• <#EBEBEB>and 61 more...'
+        - ''
+        - '<#EB3BFF>&l(!) <#EB3BFF>Click to open shop!'
+    Food:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZhMWYxZmFjN2U5YjBhNjU3ZGQ4YzA0Yjk0NDc5YTk4YzM3M2UyZjQ2NDkxNmJiZTcwN2VmOTAwNDFkYzM5OSJ9fX0=
+        displayname: "&8● <#EB3BFF>&lFOOD SHOP"
+        slot: 29
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#EB3BFF>Items in this category:'
+        - ' <#EB3BFF>• <#EBEBEB>'
+        - ' <#EB3BFF>• <#EBEBEB>'
+        - ' <#EB3BFF>• <#EBEBEB>'
+        - ' <#EB3BFF>• <#EBEBEB>'
+        - ' <#EB3BFF>• <#EBEBEB>'
+        - ' <#EB3BFF>• <#EBEBEB>and '
+        - ''
+        - '<#EB3BFF>&l(!) <#EB3BFF>Click to open shop!'
+    Farming:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwNmM4MjQ5YWZmOTc0YmQ1NDg1MTVmNjVlZjk4MWM4MDRhNTU5M2YxMmMyNDUxYWFiZTg2NzMxZTBjMWIxYiJ9fX0=
+        displayname: "&8● <#1DE682>&lFARMING SHOP"
+        slot: 30
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#1DE682>Items in this category:'
+        - ' <#1DE682>• <#EBEBEB>'
+        - ' <#1DE682>• <#EBEBEB>'
+        - ' <#1DE682>• <#EBEBEB>'
+        - ' <#1DE682>• <#EBEBEB>'
+        - ' <#1DE682>• <#EBEBEB>'
+        - ' <#1DE682>• <#EBEBEB>and '
+        - ''
+        - '<#1DE682>&l(!) <#1DE682>Click to open shop!'
+    Spawners:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRmOGVmNTE0ZWQ2YmU3OWQzZThlZmJlMThlN2NiMzkxMjMyYmFkNDg4ZTNiMTk1NTJiN2ZmNGFiZTFmZjQ1ZCJ9fX0=
+        displayname: "&8● <#FF2626>&lSPAWNERS SHOP"
+        slot: 31
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#FF2626>Items in this category:'
+        - ' <#FF2626>• <#EBEBEB>'
+        - ' <#FF2626>• <#EBEBEB>'
+        - ' <#FF2626>• <#EBEBEB>'
+        - ' <#FF2626>• <#EBEBEB>'
+        - ' <#FF2626>• <#EBEBEB>'
+        - ' <#FF2626>• <#EBEBEB>and '
+        - ''
+        - '<#FF2626>&l(!) <#FF2626>Click to open shop!'
+    Miscellaneous:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMyYzE0NzJhN2JjNjk3NWRlZDdjMGM1MTY5Njk1OWI4OWFmNjFiNzVhZTk1NGNjNDAzNmJjMzg0YjNiODMwMSJ9fX0=
+        displayname: "&8● <#FFF000>&lMISCELLANEOUS SHOP"
+        slot: 32
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#FFF000>Items in this category:'
+        - ' <#FFF000>• <#EBEBEB>'
+        - ' <#FFF000>• <#EBEBEB>'
+        - ' <#FFF000>• <#EBEBEB>'
+        - ' <#FFF000>• <#EBEBEB>'
+        - ' <#FFF000>• <#EBEBEB>'
+        - ' <#FFF000>• <#EBEBEB>and '
+        - ''
+        - '<#FFF000>&l(!) <#FFF000>Click to open shop!'
+    Enchant:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RjOTg1YTdhNjhjNTc0ZjY4M2MwYjg1OTUyMWZlYjNmYzNkMmZmYTA1ZmEwOWRiMGJhZTQ0YjhhYzI5YjM4NSJ9fX0=
+        displayname: "&8● <#E61D6F>&lENCHANTMENT"
+        slot: 33
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '  <#EBEBEB>Open the dyes shop'
+        - '  <#EBEBEB>to buy the dyes avilable'
+        - ''
+        - '<#E61D6F>&l(!) <#E61D6F>Click to open shop!'
+    Enchant:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_SKULL
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RjOTg1YTdhNjhjNTc0ZjY4M2MwYjg1OTUyMWZlYjNmYzNkMmZmYTA1ZmEwOWRiMGJhZTQ0YjhhYzI5YjM4NSJ9fX0=
+        displayname: "&8● <#E61D6F>&lENCHANTMENT"
+        slot: 33
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '  <#EBEBEB>Open the dyes shop'
+        - '  <#EBEBEB>to buy the dyes avilable'
+        - ''
+        - '<#E61D6F>&l(!) <#E61D6F>Click to open shop!'
+
+    Close:
+        enable: true
+        sounds: ui.button.click
+        material: barrier
+        nbt_value: ''
+        displayname: "&8● <#FF2626>&lCLOSE MENU"
+        slot: 49
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '<#FF2626>&l(!) <#FF2626>Click to close the shop!'
