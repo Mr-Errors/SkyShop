@@ -1,0 +1,190 @@
+Nether:
+  1:
+    material: NetherRack
+    multiplier: 1.25
+    slot: 12
+    page: 1
+    buy: 305
+    sell: 0.42
+  2:
+    material: Nether Bricks
+    multiplier: 1.25
+    slot: 13
+    page: 1
+    buy: 900
+    sell: 1.23
+  3:
+    material: Red Nether Bricks
+    multiplier: 1.25
+    slot: 14
+    page: 1
+    buy: 900
+    sell: 1.23
+  4:
+    material: Warped Stem
+    multiplier: 1.25
+    slot: 15
+    page: 1
+    buy: 3200
+    sell: 4.38
+  5:
+    material: Crimson Stem
+    multiplier: 1.25
+    slot: 16
+    page: 1
+    buy: 3200
+    sell: 4.38
+  6:
+    material: Warped Planks
+    multiplier: 1.25
+    slot: 21
+    page: 1
+    buy: 800
+    sell: 1.09
+  7:
+    material: Crimson Planks
+    multiplier: 1.25
+    slot: 22
+    page: 1
+    buy: 800
+    sell: 1.09
+  8:
+    material: Crimson Roots
+    multiplier: 1.25
+    slot: 23
+    page: 1
+    buy: 800
+    sell: 0.68
+  9:
+    material: Warped Roots
+    multiplier: 1.25
+    slot: 24
+    page: 1
+    buy: 500
+    sell: 0.68
+  10:
+    material: Warped Fungus
+    multiplier: 1.25
+    slot: 25
+    page: 1
+    buy: 600
+    sell: 0.82
+  11:
+    material: Crimson Fungus
+    multiplier: 1.25
+    slot: 30
+    page: 1
+    buy: 600
+    sell: 0.82
+  12:
+    material: Warped Wart Block
+    multiplier: 1.25
+    slot: 31
+    page: 1
+    buy: 800
+    sell: 1.09
+  13:
+    material: Nether Wart Block
+    multiplier: 1.25
+    slot: 32
+    page: 1
+    buy: 800
+    sell: 1.09
+  14:
+    material: Warped Nylium
+    multiplier: 1.25
+    slot: 33
+    page: 1
+    buy: 305
+    sell: 26.69
+  15:
+    material: Crimson Nylium
+    multiplier: 1.25
+    slot: 34
+    page: 1
+    buy: 305
+    sell: 26.69
+  16:
+    material: Basalt
+    multiplier: 1.25
+    slot: 39
+    page: 1
+    buy: 350
+    sell: 0.48
+  17:
+    material: Smooth Basalt
+    multiplier: 1.25
+    slot: 40
+    page: 1
+    buy: 350
+    sell: 0.48
+  18:
+    material: Polished Basalt
+    multiplier: 1.25
+    slot: 41
+    page: 1
+    buy: 350
+    sell: 0.48
+  19:
+    material: BlackStone
+    multiplier: 1.25
+    slot: 42
+    page: 1
+    buy: 350
+    sell: 0.48
+  20:
+    material: Polished BlackStone
+    multiplier: 1.25
+    slot: 43
+    page: 1
+    buy: 350
+    sell: 0.48
+  21:
+    material: Gilded BlackStone
+    multiplier: 1.25
+    slot: 12
+    page: 2
+    buy: 350
+    sell: 0.48
+  22:
+    material: ShroomLight
+    multiplier: 1.25
+    slot: 13
+    page: 2
+    buy: 250
+    sell: 0.34
+  23:
+    material: Soul Soil
+    multiplier: 1.25
+    slot: 14
+    page: 2
+    buy: 400
+    sell: 0.55
+  24:
+    material: Twisting Vines
+    multiplier: 1.25
+    slot: 15
+    page: 2
+    buy: 250
+    sell: 0.34
+  25:
+    material: Weeping Vines
+    multiplier: 1.25
+    slot: 16
+    page: 2
+    buy: 250
+    sell: 0.34
+  26:
+    material: Nether Sprouts
+    multiplier: 1.25
+    slot: 21
+    page: 2
+    buy: 800
+    sell: 1.09
+  27:
+    material: Magma Block
+    multiplier: 1.25
+    slot: 22
+    page: 2
+    buy: 1200
+    sell: 1.64
