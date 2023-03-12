@@ -1,0 +1,89 @@
+## ░██████╗██╗░░██╗██╗░░░██╗░██████╗██╗░░██╗░█████╗░██████╗░
+## ██╔════╝██║░██╔╝╚██╗░██╔╝██╔════╝██║░░██║██╔══██╗██╔══██╗
+## ╚█████╗░█████═╝░░╚████╔╝░╚█████╗░███████║██║░░██║██████╔╝
+## ░╚═══██╗██╔═██╗░░░╚██╔╝░░░╚═══██╗██╔══██║██║░░██║██╔═══╝░
+## ██████╔╝██║░╚██╗░░░██║░░░██████╔╝██║░░██║╚█████╔╝██║░░░░░
+## ╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░░░░
+
+Menu-Title: "&7Shop &7&l➤ "
+
+Rows: 6
+
+items:
+    fill-1:
+        material: Black Stained Glass Pane
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 11
+        - 17
+        - 18
+        - 19
+        - 20
+        - 26
+        - 27
+        - 29
+        - 35
+        - 36
+        - 38
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+ShopButtons:
+    NextPage:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_HEAD
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFhMTg3ZmVkZTg4ZGUwMDJjYmQ5MzA1NzVlYjdiYTQ4ZDNiMWEwNmQ5NjFiZGM1MzU4MDA3NTBhZjc2NDkyNiJ9fX0=
+        displayname: "&8● <#27D2F0>&lNEXT PAGE"
+        place: 28
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '  <#EBEBEB>Open the blocks shop'
+        - '  <#EBEBEB>to buy the blocks avilable'
+        - ''
+        - '  <#1DF516>▶ Click here to interact'
+    BackPage:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_HEAD
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZkYWI3MjcxZjRmZjA0ZDU0NDAyMTkwNjdhMTA5YjVjMGMxZDFlMDFlYzYwMmMwMDIwNDc2ZjdlYjYxMjE4MCJ9fX0=
+        displayname: "&8● <#27D2F0>&lPREVIOUS PAGE"
+        place: 37
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '  <#EBEBEB>Open the blocks shop'
+        - '  <#EBEBEB>to buy the blocks avilable'
+        - ''
+        - '  <#1DF516>▶ Click here to interact'
+    MainShop:
+        enable: true
+        sounds: ui.button.click
+        material: PLAYER_HEAD
+        nbt_value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFiZTRiNWI1OTJmZWUyMWE2NWUwZjkwMzAzOGM1MzMzYmUzODgyMzRhNDM3MzFkNGFkZmU1ZDU3ZDM2NDRlNSJ9fX0= 
+        displayname: "&8● <#5BF027>&lMAIN STORE"
+        place: 37
+        lore:
+        - <#6A6A6A>Interactive Item
+        - ''
+        - '  <#EBEBEB>Open the blocks shop'
+        - '  <#EBEBEB>to buy the blocks avilable'
+        - ''
+        - '  <#1DF516>▶ Click here to interact'
